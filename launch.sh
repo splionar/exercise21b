@@ -4,4 +4,5 @@ set -e
 
 # YOUR CODE BELOW THIS LINE
 # ----------------------------------------------------------------------------
-echo "This is an empty launch script. Update it to launch your application."
+#rosrun my_package my_node_subscriber.py
+roslaunch my_package multiple_nodes.launch
